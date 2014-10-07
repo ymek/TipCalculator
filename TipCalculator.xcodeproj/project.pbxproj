@@ -13,6 +13,7 @@
 		9EA252FA19E3592200136D7A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA252F919E3592200136D7A /* Images.xcassets */; };
 		9EA252FD19E3592200136D7A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9EA252FB19E3592200136D7A /* LaunchScreen.xib */; };
 		9EA2530919E3592200136D7A /* TipCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2530819E3592200136D7A /* TipCalculatorTests.swift */; };
+		9EA2531319E3597600136D7A /* TipCalculatorModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA2531219E3597600136D7A /* TipCalculatorModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9EA2530219E3592200136D7A /* TipCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TipCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA2530719E3592200136D7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA2530819E3592200136D7A /* TipCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipCalculatorTests.swift; sourceTree = "<group>"; };
+		9EA2531219E3597600136D7A /* TipCalculatorModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TipCalculatorModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 		9EA252E419E3592200136D7A = {
 			isa = PBXGroup;
 			children = (
+				9EA2531219E3597600136D7A /* TipCalculatorModel.swift */,
 				9EA252EF19E3592200136D7A /* TipCalculator */,
 				9EA2530519E3592200136D7A /* TipCalculatorTests */,
 				9EA252EE19E3592200136D7A /* Products */,
@@ -212,6 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9EA2531319E3597600136D7A /* TipCalculatorModel.swift in Sources */,
 				9EA252F519E3592200136D7A /* ViewController.swift in Sources */,
 				9EA252F319E3592200136D7A /* AppDelegate.swift in Sources */,
 			);
